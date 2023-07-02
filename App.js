@@ -37,7 +37,8 @@ export default function App() {
             <Stack.Screen
               name="Register"
               component={RegisterScreen}
-              options={{ headerShown: false }}
+              
+              options={{ headerShown: false, animation: "fade_from_bottom" }}
             />
           </>
         )}
